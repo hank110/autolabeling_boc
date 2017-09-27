@@ -128,7 +128,7 @@ def cal_wordsparsity_per_concept(training_doc, w2c_mapper, output_path):
 
 def main():
     w2c_mapper='../trained_results/w2c_d100_w8_mf50_c100.csv'
-    document='/home/hank/Backup_data/data/finalex_reuters-cleaned-document_without_zeros.txt'
+    document='data/finalex_reuters-cleaned-document_without_zeros.txt'
     output='d100_c100_results.csv'
     cal_wordsparsity_per_concept(document, w2c_mapper, output)
 
